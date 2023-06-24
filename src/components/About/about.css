@@ -58,6 +58,7 @@
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
+  color: var(--clr-txt);
 }
 
 @media (max-width: 767px) {
