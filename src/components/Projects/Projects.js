@@ -5,8 +5,8 @@ import ProjectCard from "./ProjectCards";
 
 import PrivateChat from "../../Assets/Projects/PrivateChat.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
-import Ecart from "../../Assets/Projects/ecart.png";
-import ExpenseTracker from "../../Assets/Projects/ExpenseTracker.png";
+import foodW from "../../Assets/Projects/foodW.png";
+import pipeC from "../../Assets/Projects/pipeC.png";
 
 import "./project.css";
 
@@ -21,40 +21,46 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Ecart}
-              title="E Cart"
-              description="This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database."
-              ghLink="https://github.com/rahuljha4171/E-cart"
-              demoLink="https://ecart.onrender.com/"
+              imgPath={foodW}
+              title="Food Bank Web"
+              description="A donation application to donate money and food items to identified victims of food crisis in Sri Lanka
+              Technologies: React, Bootstrap, Java Spring boot and mySql"
+              ghLink="https://github.com/ingenious-it/food-bank.git"
+              demoLink=""
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
-              title="Portfolio Website"
-              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.tech/"
+              title="Food Bank Admin"
+              description="With regard to Food Bank donation application, this provides the environment to the donation collecting organization to manage the donations until they are reached to victims.
+              Technologies: React, Bootstrap, Flutter, Java Spring boot and mySql"
+              ghLink="https://github.com/ingenious-it/FoodBank-Admin.git"
+              demoLink=""
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={PrivateChat}
-              title="Private Chat"
-              description="A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase. Have features which allows user for realtime messaging, image sharing and search user."
-              ghLink="#"
-              demoLink="https://chat-app-rahuljha4171.vercel.app/"
+              title="Food Bank Mobile"
+              description="In addition to donation web application, a mobile application was implemented to increase easiness to donate.
+              Technologies: Flutter, Java Spring boot and mySql"
+              ghLink="https://github.com/ingenious-it/FoodBank_Mobile.git"
+              demoLink=""
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={ExpenseTracker}
-              title="Expense Tracker"
-              description="An online expense tracker using React, Node, Express, and MongoDB as the database. It allows you to keep track of your expenses, investments, and savings. All past transactions are listed, and you can also delete them. "
-              ghLink="https://github.com/rahuljha4171/Expense-Tracker"
-              demoLink="https://expense-tracker.rahuljha4171.vercel.app/"
+              imgPath={pipeC}
+              title="Automatic Pipe cutting Machine"
+              description="Designed a device for automate the pipe cutting process which is
+              applicable to different pipe materials. Atmega32 was used as the
+              microcontroller and stepper motors, ultrasonic and IR sensors were
+              used. "
+              ghLink="https://github.com/Milanka00/ICT-Project.git"
+              demoLink=""
             />
           </Col>
         </Row>
