@@ -22,7 +22,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+          {/* <Button
             variant="primary"
             href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
             target="_blank"
@@ -30,7 +30,7 @@ function ResumeNew() {
           >
             <AiOutlineDownload />
             &nbsp;Download CV
-          </Button>
+          </Button> */}
         </Row>
 
         <Row className="resume">

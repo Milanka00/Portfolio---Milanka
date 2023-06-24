@@ -13,6 +13,7 @@
 
   --clr-txt: #000000ca;
   --clr-primary: #03467a;
+  
 
   --clr-border: #919090;
 
@@ -22,11 +23,14 @@
 }
 
 .dark {
-  --clr-bg: #202523;
+  /* --clr-bg: #202523; */
+  --clr-bg: #031725;
   --clr-bg-alt: #1d2120;
+  /* --clr-bg-alt: #1d566E; */
 
   --clr-txt: #eeeeee;
-  --clr-primary: #83c9ff;
+  /* --clr-primary: #83c9ff; */
+  --clr-primary: #45EBA5;
   --clr-border: #eeeeee7c;
   --clr-nav: #272f2b;
   --shadow: rgba(0, 0, 0, 0.558) 0px 10px 36px 0px,
