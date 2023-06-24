@@ -6,8 +6,8 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-import { BsFillBootstrapFill } from "react-icons/bs";
-import { BiLogoFlutter,BsFiletypeSql } from "react-icons/bi";
+import { BsFillBootstrapFill,BsFiletypeSql } from "react-icons/bs";
+import { BiLogoFlutter } from "react-icons/bi";
 import {
 
   SiSpringboot,
