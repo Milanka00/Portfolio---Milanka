@@ -7,10 +7,11 @@ import {
   DiJava,
 } from "react-icons/di";
 import { BsFillBootstrapFill,BsFiletypeSql } from "react-icons/bs";
-import { BiLogoFlutter } from "react-icons/bi";
+
 import {
 
   SiSpringboot,
+  SiFlutter,
  
 } from "react-icons/si";
 
@@ -28,7 +29,7 @@ function Techstack() {
         <BsFillBootstrapFill/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       <BiLogoFlutter/>
+       <SiFlutter/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <BsFiletypeSql />
