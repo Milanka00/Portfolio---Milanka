@@ -3,50 +3,45 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiGit,
+  DiJava,
 } from "react-icons/di";
+import { BsFillBootstrapFill } from "react-icons/bs";
+import { BiLogoFlutter,BsFiletypeSql } from "react-icons/bi";
 import {
-  SiFirebase,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
-  SiMui,
+
+  SiSpringboot,
+ 
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+      <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <BsFillBootstrapFill/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+       <BiLogoFlutter/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <BsFiletypeSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiSpringboot/>
       </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMui />
+      <DiGit />
       </Col>
     </Row>
   );
