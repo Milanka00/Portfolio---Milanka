@@ -8,7 +8,7 @@ function AboutCard() {
     <Card className="quote-card-view ">
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
-          <p style={{ textAlign: "justify" }} >
+          <p style={{ textAlign: "justify",color: "white" }} >
             Hi Everyone, I am <span className="primary-header">Milanka Tharangana</span> from Galle, Sri Lanka. I am an IT undergraduate from university of Moratuwa and a passionate programmer.
             <br />
             <br />
