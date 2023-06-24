@@ -7,24 +7,24 @@ function AboutCard() {
     <Card className="quote-card-view ">
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="primary-header">Rahul Jha</span> from Darbhanga, Bihar, India. I am a computer science graduate and a passionate programmer.
+          <p style={{ textAlign: "justify" }} className="home-about-body">
+            Hi Everyone, I am <span className="primary-header">Milanka Tharangana</span> from Galle, Sri Lanka. I am an IT undergraduate from university of Moratuwa and a passionate programmer.
             <br />
             <br />
-            In addition to coding, here are some other things I enjoy doing!
+            In addition to coding, here are some other things I am good at!
           </p>
           <ul>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Writing Tech Blogs
+              <AiOutlineArrowRight /> Problem solving
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Reading Books
+              <AiOutlineArrowRight /> Team work
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Playing Games
+              <AiOutlineArrowRight /> Fast learning
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Traveling
+              <AiOutlineArrowRight /> Documentation
             </li>
           </ul>
         </blockquote>
