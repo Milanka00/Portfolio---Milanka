@@ -24,6 +24,8 @@
   background: transparent !important;
   border: none !important;
   box-shadow: var(--shadow);
+  color: var(--clr-txt);
+  
 }
 .gitContainer {
   padding: 15px;
