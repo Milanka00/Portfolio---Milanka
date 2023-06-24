@@ -17,7 +17,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <span>
             Designed and Developed by{" "}
-            <i className="primary-header">Rahul Jha</i>
+            <i className="primary-header">Milanka Tharangana</i>
           </span>
         </Col>
         <Col md="4" className="footer-body">
@@ -26,7 +26,7 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="github"
-                href="https://github.com/Rahuljha4171"
+                href="https://github.com/Milanka00"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github"
@@ -34,7 +34,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="twitter"
@@ -45,12 +45,12 @@ function Footer() {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="email"
-                href="mailto:rahuljha4171@outlook.com"
+                href="mailto:tharanganam@gmail"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="email"
@@ -62,7 +62,7 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="linkedin"
-                href="https://www.linkedin.com/in/Rahuljha4171/"
+                href="https://www.linkedin.com/in/milanka-tharangana-aa6045220"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="linkedin"
@@ -70,7 +70,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="instagram"
@@ -81,7 +81,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>

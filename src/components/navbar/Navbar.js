@@ -45,12 +45,12 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img
+          {/* <img
             src={themename === "light" ? logoDark : logoLight}
             className="img-fluid logo"
             alt="brand"
             style={{width: "48", height: "40"}}
-          />
+          /> */}
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -104,7 +104,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://blog.rahuljha.tech/"
                 target="_blank"
@@ -112,7 +112,7 @@ function NavBar() {
               >
                 Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
 
           <Nav.Item>
