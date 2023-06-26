@@ -11,6 +11,11 @@ import "./navbar.css";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  const scrollToPComponent = (event) => {
+    event.preventDefault();
+    document.getElementById('project').scrollIntoView({ behavior: 'smooth' });
+  };
  
 
   function scrollHandler() {
@@ -63,10 +68,10 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link onClick={() => updateExpanded(false)}>
-                <a href="#project">Projects</a>
-              </Nav.Link>
-            </Nav.Item>
+      <Nav.Link onClick={scrollToPComponent}>
+        Projects
+      </Nav.Link>
+    </Nav.Item>
 
 
             <Nav.Item>
