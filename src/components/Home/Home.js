@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import home1 from "../../Assets/home1.png";
+import home1 from "../../Assets/avatar.png";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import {
   AiFillGithub, AiOutlineMail,
@@ -29,7 +29,7 @@ function Home() {
             </Col>
 
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 15 ,paddingTop: 30}} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻

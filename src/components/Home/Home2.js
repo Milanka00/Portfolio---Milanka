@@ -37,10 +37,10 @@ function Home2() {
                 alt="avatar"
               />
             </Tilt> */}
-
-                    <div className='contactForm rounded'>
+            <div className="d-flex w-100">
+            <div className='contactForm rounded'>
                             <form ref={form} onSubmit={sendEmail}>
-                                <h2>Send Message</h2>
+                                <h2>Send Me a Message</h2>
                                 <div className='inputBox w-100 mt-2'>
                                     <input type={"text"} required={"required"} name={"user_name"}/>
                                     <span>Full Name</span>
@@ -60,6 +60,9 @@ function Home2() {
                             </form>
 
                         </div>
+
+            </div>
+                    
             
           </Col>
           <Col md={4} className="">
