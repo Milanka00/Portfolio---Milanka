@@ -20,18 +20,16 @@ function Home() {
         <Container className="home-content">
           <Row>
           <Col md={5} style={{ paddingBottom: 20 }}>
-        <div className="vertical-lines-container">
-          <div className="vertical-line left-line"></div>
-          <div className="vertical-line right-line"></div>
+              <img
+                src={home1}
+                alt="home pic"
+                className="img-fluid"
+                style={{ paddingTop: 40 }}
+              />
 
-          <img
-            src={home1}
-            alt="home pic"
-            className="img-fluid"
-            style={{ paddingTop: 40 }}
-          />
-        </div>
-      </Col>
+                
+
+            </Col>
 
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 ,paddingTop: 30}} className="heading">
