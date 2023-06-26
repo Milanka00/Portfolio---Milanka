@@ -2,8 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import home1 from "../../Assets/home1.png";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
-
-import Home2 from "./Home2";
+import {
+  AiFillGithub, AiOutlineMail,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import Home2 from "./Home2.js";
 import Type from "./Type";
 import "./home.css";
 
@@ -18,8 +21,11 @@ function Home() {
                 src={home1}
                 alt="home pic"
                 className="img-fluid"
-                style={{ paddingTop: 50 }}
+                style={{ paddingTop: 40 }}
               />
+
+                
+
             </Col>
 
             <Col md={7} className="home-header">
@@ -28,23 +34,67 @@ function Home() {
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>{" "}
-                I'M
+                I'm
               </h1>
 
               <h1 className="heading-name">
                 <strong className="main-name"> Milanka Tharangana</strong>
               </h1>
-
               <div style={{ padding: 30 }} className="type">
                 <Type />
               </div>
+
+              <div style={{ paddingLeft: 45 }} className="type">
+              
+            <ul className="home-about-social-links" data-aos="fade-up">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Milanka00"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  aria-label="github"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+             
+              <li className="social-icons">
+                <a
+                  href="mailto:tharanganam@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  aria-label="email"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/milanka-tharangana-aa6045220"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  aria-label="linkedin"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+             
+            </ul>
+               
+              </div>
+
+             
+              
             </Col>
 
            
           </Row>
         </Container>
       </Container>
-      <Home2 />
+       <Home2/>
       <ScrollToTop />
     </section>
   );
