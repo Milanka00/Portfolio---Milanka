@@ -5,18 +5,15 @@ import Container from "react-bootstrap/Container";
 // import logoLight from "../../Assets/logoLight.png";
 // import logoDark from "../../Assets/logoDark.png";
 
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navbar.css";
-import { Link } from 'react-scroll';
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-  const handleClick = () => {
-    // Logic to handle click event
-    updateExpanded(false); // Assuming updateExpanded is a function to update the expanded state
-  };
+
  
 
   function scrollHandler() {
@@ -68,13 +65,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-      <Nav.Link onClick={handleClick}>
-        <Link to="project" smooth={true} duration={500}>
-          Projects
-        </Link>
-      </Nav.Link>
-    </Nav.Item>
+           
+
+    <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
+                Projects
+              </Nav.Link>
+            </Nav.Item>
 
 
             <Nav.Item>
