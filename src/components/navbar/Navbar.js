@@ -8,12 +8,9 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
-
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
-
  
 
   function scrollHandler() {
@@ -65,9 +62,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           
-
-    <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -76,7 +71,6 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item>
               <Nav.Link
