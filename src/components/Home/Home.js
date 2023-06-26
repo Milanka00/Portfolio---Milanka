@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import home1 from "../../Assets/avatar.png";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
@@ -13,26 +13,17 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 
 function Home() {
-  const [lineAnimationActive, setLineAnimationActive] = useState(false);
 
-  const handleImageHover = () => {
-    setLineAnimationActive(true);
-  };
-
-  const handleImageLeave = () => {
-    setLineAnimationActive(false);
-  };
   return (
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
           <Col md={5} style={{ paddingBottom: 20 }}>
-        <div
-          className={`img-container ${lineAnimationActive ? 'line-animation active' : 'line-animation'}`}
-          onMouseEnter={handleImageHover}
-          onMouseLeave={handleImageLeave}
-        >
+        <div className="vertical-lines-container">
+          <div className="vertical-line left-line"></div>
+          <div className="vertical-line right-line"></div>
+
           <img
             src={home1}
             alt="home pic"
