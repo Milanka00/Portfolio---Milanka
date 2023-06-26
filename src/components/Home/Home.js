@@ -96,7 +96,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Projects/>
+      <Projects id="project" />
       <About/>
        <Home2/>
       
