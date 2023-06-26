@@ -1,8 +1,8 @@
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
-  background-color: var(--clr-bg) !important;
+  background-color: var(--clr-bg-alt) !important;
 }
 
 .project-card {

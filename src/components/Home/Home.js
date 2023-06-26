@@ -9,6 +9,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Home2 from "./Home2.js";
 import Type from "./Type";
 import "./home.css";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
@@ -94,7 +96,10 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Projects/>
+      <About/>
        <Home2/>
+      
       <ScrollToTop />
     </section>
   );
